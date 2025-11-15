@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.hide-scrollbar:hover,
+.hide-scrollbar:focus,
+.hide-scrollbar:active {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+.hide-scrollbar:hover::-webkit-scrollbar,
+.hide-scrollbar:focus::-webkit-scrollbar,
+.hide-scrollbar:active::-webkit-scrollbar {
+  display: none !important;
+}
