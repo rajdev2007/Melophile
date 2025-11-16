@@ -1,7 +1,7 @@
 export const Navbar = ()=>{
     return (
         <div className="flex justify-between bg-black p-2">
-            <div className="ml-3 cursor-pointer">
+            <div className="ml-4 cursor-pointer">
                 <img className="size-12" src="/melophile.png" alt="Melophile" />
             </div>
 
