@@ -1,13 +1,14 @@
 
-import { Navbar } from './components/Navbar'
-import Sidebar from './components/Sidebar'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
 
 function App() {
 
   return (
       <div className="bg-black min-h-screen">
-        <Navbar></Navbar>
-        <Sidebar></Sidebar>
+        <Routes>
+          <Route path='/' element={<Home></Home>} ></Route>
+        </Routes>
       </div>
   )
 }

@@ -18,7 +18,7 @@ function CreatePlaylistModal({ isOpen, onClose, onCreate }) {
 
   return (
     <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
-      <div className="bg-neutral-800 rounded-xl p-6 w-96 max-w-full mx-4">
+      <div className="bg-neutral-800 rounded-lg p-6 w-96 max-w-full mx-4">
         <h2 className="text-xl font-bold text-white mb-4">Create Playlist</h2>
         <input
           type="text"
@@ -125,7 +125,7 @@ export default function Sidebar() {
           bg-neutral-900 text-gray-300
           flex flex-col
           ml-2 mb-2
-          rounded-xl shadow-2xl
+          rounded-lg shadow-2xl
           transition-all duration-300 ease-in-out overflow-hidden
           ${expanded ? 'w-64' : 'w-20'}
         `}
