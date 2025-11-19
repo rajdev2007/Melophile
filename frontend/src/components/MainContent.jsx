@@ -1,5 +1,6 @@
 
 import { Music } from "lucide-react";
+import HorizontalRow from "./HorizontalRow";
 
 export default function MainContent() {
   return (
@@ -15,79 +16,92 @@ export default function MainContent() {
 
         <div className="grid grid-cols-4 lg:grid-cols-8 justify-center gap-3 ml-10 mr-10 mt-4">
             
-            <div className="col-span-2 w-full h-16 flex bg-[#353434] rounded-lg gap-3">
-                <div className="w-24 h-16 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
+            <div className="col-span-2 w-full h-10 lg:h-16 md:h-12 flex bg-[#353434] rounded-lg gap-3">
+                <div className="w-24 h-10 lg:h-16 md:h-12 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
                     <Music className="w-5 h-5 text-white" />
                 </div>
-                <div className="w-full h-16 pt-5 font-semibold">
+                <div className="w-full h-10 lg:h-16 md:h-12 pt-2 lg:pt-5 md:pt-3 font-semibold">
                     Chill vibes
                 </div>
             </div>
 
-            <div className="col-span-2 w-full h-16 flex bg-[#353434] rounded-lg gap-3">
-                <div className="w-24 h-16 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
+            <div className="col-span-2 w-full h-10 lg:h-16 md:h-12 flex bg-[#353434] rounded-lg gap-3">
+                <div className="w-24 h-10 lg:h-16 md:h-12 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
                     <Music className="w-5 h-5 text-white" />
                 </div>
-                <div className="w-full h-16 pt-5 font-semibold">
+                <div className="w-full h-10 lg:h-16 md:h-12 pt-2 lg:pt-5 md:pt-3 font-semibold">
                     Chill vibes
                 </div>
             </div>
 
-            <div className="col-span-2 w-full h-16 flex bg-[#353434] rounded-lg gap-3">
-                <div className="w-24 h-16 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
+            <div className="col-span-2 w-full h-10 lg:h-16 md:h-12 flex bg-[#353434] rounded-lg gap-3">
+                <div className="w-24 h-10 lg:h-16 md:h-12 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
                     <Music className="w-5 h-5 text-white" />
                 </div>
-                <div className="w-full h-16 pt-5 font-semibold">
+                <div className="w-full h-10 lg:h-16 md:h-12 pt-2 lg:pt-5 md:pt-3 font-semibold">
                     Chill vibes
                 </div>
             </div>
 
-            <div className="col-span-2 w-full h-16 flex bg-[#353434] rounded-lg gap-3">
-                <div className="w-24 h-16 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
+            <div className="col-span-2 w-full h-10 lg:h-16 md:h-12 flex bg-[#353434] rounded-lg gap-3">
+                <div className="w-24 h-10 lg:h-16 md:h-12 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
                     <Music className="w-5 h-5 text-white" />
                 </div>
-                <div className="w-full h-16 pt-5 font-semibold">
+                <div className="w-full h-10 lg:h-16 md:h-12 pt-2 lg:pt-5 md:pt-3 font-semibold">
                     Chill vibes
                 </div>
             </div>
 
-            <div className="col-span-2 w-full h-16 flex bg-[#353434] rounded-lg gap-3">
-                <div className="w-24 h-16 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
+            <div className="col-span-2 w-full h-10 lg:h-16 md:h-12 flex bg-[#353434] rounded-lg gap-3">
+                <div className="w-24 h-10 lg:h-16 md:h-12 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
                     <Music className="w-5 h-5 text-white" />
                 </div>
-                <div className="w-full h-16 pt-5 font-semibold">
+                <div className="w-full h-10 lg:h-16 md:h-12 pt-2 lg:pt-5 md:pt-3 font-semibold">
                     Chill vibes
                 </div>
             </div>
 
-            <div className="col-span-2 w-full h-16 flex bg-[#353434] rounded-lg gap-3">
-                <div className="w-24 h-16 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
+            <div className="col-span-2 w-full h-10 lg:h-16 md:h-12 flex bg-[#353434] rounded-lg gap-3">
+                <div className="w-24 h-10 lg:h-16 md:h-12 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
                     <Music className="w-5 h-5 text-white" />
                 </div>
-                <div className="w-full h-16 pt-5 font-semibold">
+                <div className="w-full h-10 lg:h-16 md:h-12 pt-2 lg:pt-5 md:pt-3 font-semibold">
                     Chill vibes
                 </div>
             </div>
 
-            <div className="col-span-2 w-full h-16 flex bg-[#353434] rounded-lg gap-3">
-                <div className="w-24 h-16 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
+            <div className="col-span-2 w-full h-10 lg:h-16 md:h-12 flex bg-[#353434] rounded-lg gap-3">
+                <div className="w-24 h-10 lg:h-16 md:h-12 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
                     <Music className="w-5 h-5 text-white" />
                 </div>
-                <div className="w-full h-16 pt-5 font-semibold">
+                <div className="w-full h-10 lg:h-16 md:h-12 pt-2 lg:pt-5 md:pt-3 font-semibold">
                     Chill vibes
                 </div>
             </div>
 
-            <div className="col-span-2 w-full h-16 flex bg-[#353434] rounded-lg gap-3">
-                <div className="w-24 h-16 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
+            <div className="col-span-2 w-full h-10 lg:h-16 md:h-12 flex bg-[#353434] rounded-lg gap-3">
+                <div className="w-24 h-10 lg:h-16 md:h-12 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center rounded-lg">
                     <Music className="w-5 h-5 text-white" />
                 </div>
-                <div className="w-full h-16 pt-5 font-semibold">
+                <div className="w-full h-10 lg:h-16 md:h-12 pt-2 lg:pt-5 md:pt-3 font-semibold">
                     Chill vibes
                 </div>
             </div>
 
         </div>
+        
+        <HorizontalRow
+            subHeading="Made for you"
+            heading="Your top mixes"
+            items={[
+                { title: "Chill Vibes", subtitle: "Dua Lipa, The Weeknd and more" },
+                { title: "Focus Flow", subtitle: "Instrumental beats to help you concentrate" },
+                { title: "Lo-Fi Beats", subtitle: "Relax and unwind" },
+                { title: "Daily Mix 1", subtitle: "Harry Styles, Taylor Swift" },
+                { title: "Discover Weekly", subtitle: "Your weekly mixtape" },
+                { title: "Release Radar", subtitle: "New music this week" },
+            ]}
+        />
 
     </div>
   );
